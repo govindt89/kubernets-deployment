@@ -1,0 +1,5 @@
+SIEM integration -> In our infrastructer we were configured all logs in single log account under the control tower landing zone
+setup.
+We were pushing all the logs in to it and we were integrated all the logs with Wazuh (SIEM tool) with IAM role,
+it will will pull the logs and analyse it and if anything suspecius found, it trigger a mail to just in Jira.
+Based on investigation we fix the vulnerable action items.
